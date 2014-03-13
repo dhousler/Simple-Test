@@ -1,0 +1,104 @@
+    <!doctype html>  
+    <head>  
+      <meta charset="utf-8">  
+      <title>Chromosome 10</title>  
+      <meta name="description" content="Welcome to my basic template.">  
+      <link rel="stylesheet" type="text/css" href="style1.css">  
+    </head>  
+      
+    <body>  
+        <div id="wrapper">  
+            <header>  
+                <img src="Header5_C10.gif" alt="Banner_C10" width="450" height="70"> 
+				
+                <!--//-->
+                <nav>  
+                    <ul>  
+                        <li><a rel="#index" href="#">Home</a></li>  
+                        <li><a rel="external" href="#">Restriction Enzymes</a></li>  
+                        <li><a rel="#resources" href="resources.html">Resources</a></li>  
+                    </ul>  
+                </nav>  
+				
+            </header>   
+					
+            
+<script>
+function doLoad(id)
+{
+//document.getElementById("divMainContent").innerHTML = "Hello Option " + id + ""
+document.getElementById("divMainContent").src = "http://www.bbc.co.uk"
+}
+</script>
+			
+            <div id="core" class="clearfix" >  <!--style="border:thin solid #cccccc"-->
+				
+                <section id="left">  
+                   <!-- <p>some content here.</p>  -->
+					<!--<img src="background1.jpg" alt="background" width="1000" height="700">-->
+					<!-- <img src="Chromosome10c.jpg" alt="chromosome10" width="200" height="600">-->
+					<a href="javascript:void(0)" onclick="doLoad('1')" >Option 1</a>
+					<br />
+					<a href="javascript:void(0)" onclick="doLoad('2')" >Option 2</a>
+					<br />
+					<a href="javascript:void(0)" onclick="doLoad('3')" >Option 3</a>
+					<br />
+					<a href="javascript:void(0)" onclick="doLoad('4')" >Option 4</a>
+					
+						
+                </section>  
+                  
+                <section id="right">  
+					<form class="contact_form" action="URL-of-CGI-script" method="post" >
+						<input type="text" name="enter1" size="30" maxlength="50" placeholder="e.g., accession number" onfocus='this.placeholder="";'>
+						<!--<p>Please enter a search value</p>-->
+						<input type="submit" value="Search" >
+						<!-- <input type="reset" value="Clear"> -->
+					</form>  
+					<iframe style="width:100%; border:thin solid #ff0000; height:100px" name="divMainContent" id="divMainContent" >Main Content</iframe>
+					<!--<div style="width:100%; border:thin solid #ff0000; height:100px" name="divMainContent" id="divMainContent" >Main Content</div>-->
+					
+                   <!-- <p>but some here as well!</p>  -->
+                </section>  
+				
+				<section id="BodyImageSection" class="layered">
+					<div id="labels">
+						
+						<div id="GeneID" style="position:relative; left: 200px; top:108px; z-index: 1;">
+							<a rel="#GeneID" href="#">
+								<label class="link1">Gene Identifier</label>
+							</a>
+						</div><!-- end of GeneID-->
+						
+						<div id="PtnNames" style="position:relative; left: 200px; top:220px; z-index: 1;">
+							<a rel="#PtnNames" href="#">
+								<label>Protein Product Names</label>
+							</a>
+						</div><!-- end PtnNames-->
+		
+						<div id="GenAccess" style="position:relative; left: 200px; top:330px; z-index: 1;">
+							<a rel="#GenAccess" href="#">
+								<label>Genbank Accession Numbers</label>
+							</a>
+						</div><!-- end of GenAccess-->
+						
+						<div id="CLocation" style="position:relative; left: 200px; top:460px; z-index: 1;">
+							<a rel="#CLocation" href="#">
+								<label>Chromosomal Locati
+								on</label>
+							</a>
+						</div><!-- end of CLocation-->
+						
+					<div/><!-- end of labels-->
+				</section> <!--end of image section-->
+					
+				
+            </div>  
+              
+            <footer>  
+                <p>Birkbeck College. © D Housler & co.</p>  
+            </footer>  
+        </div>  
+      
+    </body>  
+    </html>  

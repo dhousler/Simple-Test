@@ -1,0 +1,134 @@
+    body{
+	background-color:#ffffff;
+	}
+	h3{
+		font-family:sans-serif;
+		font: arial;
+		color: #6f90b0;
+		font-size: 32px;
+	}
+	a {
+	text-decoration:none;
+	}
+	a:hover{
+	/*text-decoration:underline;*/
+	background-color: transparent;
+	color: #cfb290;
+	font-weight: bold;
+	}
+	p {
+		font-family:sans-serif;
+		font: arial;
+		font-size: 11px;
+		color: #6f90b0;
+	}
+	label{
+		font-family:sans-serif;
+		font: arial;
+		font-size: 18px;
+		color: #6f90b0;
+	}
+	footer{
+		font-family:sans-serif;
+		font: arial;
+		font-size: 11px;
+		color: #6f90b0;
+	/*position:absolute*/;
+		bottom:10px;
+		left:10px;
+	}
+	
+	/*Navigation*/
+	nav {  
+        display: block;  
+        margin-bottom: 10px;  
+    }  
+    nav ul {  
+        list-style: none;  
+        font-size: 16px; 
+		font-family: sans-serif;
+		font: arial;
+    }  
+    nav ul li { 
+        display: inline;  
+    }  
+    nav ul li a { 
+        display: block;  
+        float: left;  
+        padding: 3px 20px;  
+        color: #cfb290;  
+        text-decoration: none;  
+        font-weight: bold;
+		
+    }  
+    nav ul li a:hover { 
+        background: #cfb290;  
+        color: #60788f;  
+        -webkit-border-radius: 3px;  
+        -moz-border-radius: 3px;  
+        border-radius: 3px;  
+        padding: 3px 20px;  
+        margin: 0;  
+        text-decoration: none;  
+    }  
+	    /* page core */  
+    div#core {  
+        display: block;  
+        clear: both;  
+        margin-bottom: 20px;  
+    }  
+    section#left {  
+        width: 550px;  
+        float: left;  
+        margin: 0 15px;  
+    }  
+    section#right {  
+        float: left;  
+        width: 300px;  
+    } 
+	/*Images together*/
+	section#BodyImageSection{
+		background: url('Chromosome3_trans.gif') no-repeat,
+					url('backgroundMock1.jpg') no-repeat;
+		background-size: 45% 100%, 
+						100%;
+		display: inline-block;
+		border: thin solid #ff0000;
+		width: 1000px;
+		height: 700px;
+	}
+      
+       
+    /* clearfix */  
+    .clearfix:after {  
+        content: ".";  
+        display: block;  
+        clear: both;  
+        visibility: hidden;  
+        line-height: 0;  
+        height: 0;  
+    }  
+    .clearfix {  
+        display: inline-block;  
+    }  
+       
+    html[xmlns] .clearfix {  
+        display: block;  
+    }  
+    * html .clearfix {  
+        height: 1%;  
+    }  
+	
+	/* Forms */
+	input[type=submit] {
+	color: #60788f;
+	padding:5px 15px; 
+	background:#cfb290; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: bold; 	
+	}
+
+	.link1{color:#ff0000}
